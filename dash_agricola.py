@@ -79,7 +79,7 @@ fig_mapa.update_layout(
 
 # ========================== Layout do dash ============================ #
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
-
+server=app.server
 app.layout = dbc.Container([
 
     dbc.Row([
